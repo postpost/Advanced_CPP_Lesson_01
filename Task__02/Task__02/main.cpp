@@ -31,7 +31,7 @@ int main() {
 	auto result = get_variant();
 
 	if (std::holds_alternative<int>(result)) {
-		std:: cout << std::get<int>(result) * 3;
+		std:: cout << std::get<int>(result) * 2;
 	}
 	else if (std::holds_alternative<std::string>(result)) {
 		std::cout << std::get<std::string>(result);
